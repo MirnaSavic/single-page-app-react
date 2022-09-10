@@ -1,0 +1,27 @@
+.content-container {
+    font-size: 1.125rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+span {
+    color: purple;
+    font-size: 1.25rem;
+    margin-right: 5px;
+}
+
+/* media queires */
+
+@media (max-width:768px) {
+    .content-container{
+        font-size: 1rem;
+    }
+
+    .content-container h1 {
+        font-size: 2.2rem;
+    }
+    
+}

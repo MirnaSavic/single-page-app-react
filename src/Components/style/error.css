@@ -1,0 +1,16 @@
+.error {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.error h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:400px){
+    .error h1 {
+        font-size: 18px;
+
+    }
+   
+}

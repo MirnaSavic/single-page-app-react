@@ -1,0 +1,36 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(211, 211, 211, 0.623);
+    width: 100%;
+    padding: .5em;
+}
+
+.line {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin-bottom: .5rem;
+    
+}
+
+.icons {
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.fa-brands {
+    margin-right: 1.5rem;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.copyright p {
+    text-align: center;
+    color: white;
+    margin-bottom: .5rem;
+}

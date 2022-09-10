@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    color: #301934;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3.75rem;
+}
+
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.services {
+    border: .3rem solid purple;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    color: #301934;
+}
+
+.images {
+    width: 100%;
+}
+
+.btn {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.startLearning {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em 1.5em ;
+}
+
+/* media q */
+
+@media (max-width:768px) {
+    .service-container {
+        flex-direction: column;
+        
+    }
+
+    .services {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .btn {
+        width: 50%;
+    }
+}
